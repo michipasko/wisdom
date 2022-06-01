@@ -9,7 +9,8 @@ const wisdomOfTheWorld = [
   "Red dir niemals ein, dass du Schuld bist. Es ist ganz sicher jemand anderes.",
   "Wenn man ganz genau hinsieht, kann man mit etwas Glück mehr erkennen.",
   "Runde Bälle haben keine Ecken.",
-  "Wenn dir das Leben eine Zitrone gibt, dann sag: 'Behalt deinen Scheiß'".
+  "Wenn dir das Leben eine Zitrone gibt, dann sag: 'Behalt deinen Scheiß'".,
+  "Rosen sind rot, Bananen sind krumm - du bist leider wirklich sehr sehr ... schlau."
 ];
 
 const btnWisdom = document.getElementById("btn-wisedom");

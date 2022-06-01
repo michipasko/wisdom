@@ -4,6 +4,9 @@ const wisdomOfTheWorld = [
   "Es ist ganz einfach, andere Menschen zu berühren - du musst sie nur mit deinem Finger antippen.",
   "Am Ende des Tages wird es dunkel.",
   "Alle müssen mal auf's Klo.",
+  "Wenn mein Hund sagt, dass er kacken muss, dann lass ich ihn.",
+  "Der Coach sagt: Vollgas!",
+  "Red dir niemals ein, dass du Schuld bist. Es ist ganz sicher jemand anderes.",
 ];
 
 const btnWisdom = document.getElementById("btn-wisedom");

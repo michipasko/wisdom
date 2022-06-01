@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+#heading {
+    font-family: 'Passion One', cursive;
+}
+
+.hidden {
+    display:none;
+}

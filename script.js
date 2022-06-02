@@ -10,7 +10,11 @@ const wisdomOfTheWorld = [
   "Wenn man ganz genau hinsieht, kann man mit etwas Glück mehr erkennen.",
   "Runde Bälle haben keine Ecken.",
   "Wenn dir das Leben eine Zitrone gibt, dann sag: 'Behalt deinen Scheiß.'",
-  "Rosen sind rot, Bananen sind krumm - du bist wirklich sehr sehr ... schlau."
+  "Rosen sind rot, Bananen sind krumm - du bist wirklich sehr sehr ... schlau.",
+  "Dönerteller werden nur sehr selten in einem Brot serviert.",
+  "Um Managern das Leben zu erleichtern, ist Kühen das Betreten von Eisflächen in Projekten grundsätzlich verboten.",
+  "Ob es aus dem Wald so herauskommt, wie man hineingerufen hat, hängt davon ab, wie laut man ruft und wie groß der Wald ist.",
+  "Die dümmsten Bauern haben den geringsten IQ.",
 ];
 
 const btnWisdom = document.getElementById("btn-wisedom");

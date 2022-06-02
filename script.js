@@ -17,24 +17,24 @@ const wisdomOfTheWorld = [
   "Die dümmsten Bauern haben den geringsten IQ.",
 ];
 
+const welcomeScreen = document.querySelector(".welcome-screen");
 const btnWisdom = document.getElementById("btn-wisedom");
+const btnCloseModal = document.querySelector(".btn-close");
 const wisdomContainer = document.querySelector(".wisdom-container");
 const wisdomText = document.getElementById("wisdom-text");
-const memoji1 = document.getElementById("memoji-1");
-const memoji2 = document.getElementById("memoji-2");
 
 function selectWisdom() {
   const randomWisdom =
     wisdomOfTheWorld[Math.trunc(Math.random() * wisdomOfTheWorld.length)];
   wisdomText.textContent = randomWisdom;
+  console.log("click");
 }
 
 btnWisdom.addEventListener("click", () => {
-  memoji1.classList.toggle("hidden");
-  wisdomContainer.classList.toggle("hidden");
   selectWisdom();
-  console.log(btnWisdom.textContent);
-  btnWisdom.textContent == "Erleuchte mich"
-    ? (btnWisdom.textContent = "Danke")
-    : (btnWisdom.textContent = "Erleuchte mich");
+  welcomeScreen.classList.add("hidden");
+});
+
+btnCloseModal.addEventListener("click", () => {
+  welcomeScreen.classList.remove("hidden");
 });
